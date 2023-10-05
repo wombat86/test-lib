@@ -1,2 +1,2 @@
-export * from './funcs/anotherFunc';
-export * from './funcs/someFunc';
+export * from './funcs/anotherFunc.js';
+export * from './funcs/someFunc.js';
