@@ -1,2 +1,2 @@
-export * from './anotherFunc';
-export * from './someFunc';
+export * from './funcs/anotherFunc';
+export * from './funcs/someFunc';
