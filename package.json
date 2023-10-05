@@ -9,7 +9,7 @@
   "scripts": {
     "build": "shx rm -rf ./dist && tsc",
     "package": "npm run build && node ./scripts/package.js",
-    "publish": "npm run package && cd ./package && npm publish",
+    "deploy": "npm run package && cd ./package && npm publish",
     "bump:patch": "npm version patch && git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
